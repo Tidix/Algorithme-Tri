@@ -1,0 +1,1 @@
+javac -d ./build/ src/CalculMain.java src/logger/*.java src/Generateur/*.java src/tri/*.java src/visualiser/*.java && java -cp build/:lib/javax.json-1.1.4.jar CalculMain

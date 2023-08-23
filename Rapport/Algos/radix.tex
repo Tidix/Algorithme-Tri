@@ -1,0 +1,10 @@
+\label{Radix}
+\footnotesize 
+\noindent
+Complexité :  $n$
+\\
+\normalsize
+Radix est un tri qui n'utilise pas le principe de comparaison.
+Le principe est de compter le nombre d'occurrences de chaque entier, et avec ceci on peut calculer un index pour chaque nombre dans la liste triée et recréer une liste en parcourant notre liste à trier et mettant chaque nombre à l'index calculé pour lui.
+
+Il faut un astuce supplémentaire pour trier, car on ne peut pas faire un tableau d'indices de 2 milliards d'entrées. On faut le tri sur les 8 derniers bits, puis à partir de cette nouvelle liste on prends les 8 prochains bits, et après 4 itérations notre entier est triée.

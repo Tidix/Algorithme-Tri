@@ -1,0 +1,9 @@
+- Choix de ne pas utiliser types generics, uniquement int pour que l'etude reste simple
+- Choix de faire un sorte au'un algo de tri modifie le tableau donné en entrée pour 
+ne pas ajouter la complexite d'une recopie de tableau dans l'analyse
+
+Pour le ShellSort :
+- Choix de l'espacement entre les elements on a pris de diviser par 2 à partir de la taille du tableau, ce choix est destiné à changer.
+
+Pour la visualisation:
+- On visualise à l'envers. "It's a feature, not a bug"
